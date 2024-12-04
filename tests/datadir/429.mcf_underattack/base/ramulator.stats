@@ -1,0 +1,1090 @@
+                   ramulator.warmup_time                   7                                      # Time in second taken to complete the warmup phase.
+               ramulator.simulation_time                   9                                      # Time in second taken to complete the simulation.
+               ramulator.active_cycles_0             4788842                                      # Total active cycles for level _0
+                 ramulator.busy_cycles_0             4788842                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0
+            ramulator.serving_requests_0            72450765                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0
+    ramulator.average_serving_requests_0           15.116420                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0
+               ramulator.opened_cycles_0                   0                                      # Total cycles during which the level _0 had an opened row.
+             ramulator.active_cycles_0_0             4788842                                      # Total active cycles for level _0_0
+               ramulator.busy_cycles_0_0             4789154                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0
+          ramulator.serving_requests_0_0            72450765                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0
+  ramulator.average_serving_requests_0_0           15.116420                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0
+             ramulator.opened_cycles_0_0                   0                                      # Total cycles during which the level _0_0 had an opened row.
+           ramulator.active_cycles_0_0_0             4583125                                      # Total active cycles for level _0_0_0
+             ramulator.busy_cycles_0_0_0             4583125                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_0
+        ramulator.serving_requests_0_0_0            15450427                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0
+ramulator.average_serving_requests_0_0_0            3.223639                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0
+           ramulator.opened_cycles_0_0_0                   0                                      # Total cycles during which the level _0_0_0 had an opened row.
+         ramulator.active_cycles_0_0_0_0             3796427                                      # Total active cycles for level _0_0_0_0
+           ramulator.busy_cycles_0_0_0_0             3796427                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_0_0
+      ramulator.serving_requests_0_0_0_0             3868653                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_0
+ramulator.average_serving_requests_0_0_0_0            0.807171                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_0
+         ramulator.opened_cycles_0_0_0_0             2383092                                      # Total cycles during which the level _0_0_0_0 had an opened row.
+      ramulator.num_blocked_acts_0_0_0_0                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_0_0                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_0_0               38712                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38712.0                                      # 
+              ramulator.num_rows_0_0_0_0                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_0_0                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_0_0                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_0_0                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_0_0                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_0_0              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_0_0              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_0_0              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_0_0              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_0_0              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_0_0              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_0_0              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_0_0              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_0_1             3761690                                      # Total active cycles for level _0_0_0_1
+           ramulator.busy_cycles_0_0_0_1             3761690                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_0_1
+      ramulator.serving_requests_0_0_0_1             3819470                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_1
+ramulator.average_serving_requests_0_0_0_1            0.796910                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_1
+         ramulator.opened_cycles_0_0_0_1             2380832                                      # Total cycles during which the level _0_0_0_1 had an opened row.
+      ramulator.num_blocked_acts_0_0_0_1                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_0_1                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_0_1               38644                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38644.0                                      # 
+              ramulator.num_rows_0_0_0_1                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_0_1                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_0_1                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_0_1                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_0_1                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_0_1              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_0_1              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_0_1              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_0_1              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_0_1              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_0_1              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_0_1              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_0_1              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_0_2             3810689                                      # Total active cycles for level _0_0_0_2
+           ramulator.busy_cycles_0_0_0_2             3810689                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_0_2
+      ramulator.serving_requests_0_0_0_2             3890925                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_2
+ramulator.average_serving_requests_0_0_0_2            0.811818                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_2
+         ramulator.opened_cycles_0_0_0_2             2388056                                      # Total cycles during which the level _0_0_0_2 had an opened row.
+      ramulator.num_blocked_acts_0_0_0_2                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_0_2                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_0_2               38509                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38509.0                                      # 
+              ramulator.num_rows_0_0_0_2                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_0_2                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_0_2                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_0_2                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_0_2                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_0_2              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_0_2              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_0_2              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_0_2              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_0_2              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_0_2              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_0_2              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_0_2              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_0_3             3795396                                      # Total active cycles for level _0_0_0_3
+           ramulator.busy_cycles_0_0_0_3             3795396                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_0_3
+      ramulator.serving_requests_0_0_0_3             3871379                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_3
+ramulator.average_serving_requests_0_0_0_3            0.807740                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_0_3
+         ramulator.opened_cycles_0_0_0_3             2385146                                      # Total cycles during which the level _0_0_0_3 had an opened row.
+      ramulator.num_blocked_acts_0_0_0_3                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_0_3                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_0_3               38612                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38612.0                                      # 
+              ramulator.num_rows_0_0_0_3                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_0_3                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_0_3                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_0_3                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_0_3                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_0_3              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_0_3              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_0_3              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_0_3              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_0_3              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_0_3              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_0_3              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_0_3              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+           ramulator.active_cycles_0_0_1             4598978                                      # Total active cycles for level _0_0_1
+             ramulator.busy_cycles_0_0_1             4598978                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_1
+        ramulator.serving_requests_0_0_1            15578162                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1
+ramulator.average_serving_requests_0_0_1            3.250291                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1
+           ramulator.opened_cycles_0_0_1                   0                                      # Total cycles during which the level _0_0_1 had an opened row.
+         ramulator.active_cycles_0_0_1_0             3771132                                      # Total active cycles for level _0_0_1_0
+           ramulator.busy_cycles_0_0_1_0             3771132                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_1_0
+      ramulator.serving_requests_0_0_1_0             3831076                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_0
+ramulator.average_serving_requests_0_0_1_0            0.799331                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_0
+         ramulator.opened_cycles_0_0_1_0             2385446                                      # Total cycles during which the level _0_0_1_0 had an opened row.
+      ramulator.num_blocked_acts_0_0_1_0                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_1_0                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_1_0               38686                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38686.0                                      # 
+              ramulator.num_rows_0_0_1_0                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_1_0                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_1_0                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_1_0                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_1_0                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_1_0              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_1_0              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_1_0              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_1_0              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_1_0              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_1_0              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_1_0              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_1_0              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_1_1             3789805                                      # Total active cycles for level _0_0_1_1
+           ramulator.busy_cycles_0_0_1_1             3789805                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_1_1
+      ramulator.serving_requests_0_0_1_1             3856188                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_1
+ramulator.average_serving_requests_0_0_1_1            0.804571                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_1
+         ramulator.opened_cycles_0_0_1_1             2384687                                      # Total cycles during which the level _0_0_1_1 had an opened row.
+      ramulator.num_blocked_acts_0_0_1_1                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_1_1                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_1_1               38765                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38765.0                                      # 
+              ramulator.num_rows_0_0_1_1                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_1_1                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_1_1                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_1_1                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_1_1                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_1_1              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_1_1              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_1_1              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_1_1              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_1_1              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_1_1              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_1_1              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_1_1              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_1_2             3787665                                      # Total active cycles for level _0_0_1_2
+           ramulator.busy_cycles_0_0_1_2             3787665                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_1_2
+      ramulator.serving_requests_0_0_1_2             3862825                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_2
+ramulator.average_serving_requests_0_0_1_2            0.805955                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_2
+         ramulator.opened_cycles_0_0_1_2             2379946                                      # Total cycles during which the level _0_0_1_2 had an opened row.
+      ramulator.num_blocked_acts_0_0_1_2                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_1_2                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_1_2               38641                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38641.0                                      # 
+              ramulator.num_rows_0_0_1_2                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_1_2                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_1_2                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_1_2                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_1_2                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_1_2              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_1_2              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_1_2              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_1_2              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_1_2              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_1_2              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_1_2              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_1_2              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_1_3             3912085                                      # Total active cycles for level _0_0_1_3
+           ramulator.busy_cycles_0_0_1_3             3912085                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_1_3
+      ramulator.serving_requests_0_0_1_3             4028073                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_3
+ramulator.average_serving_requests_0_0_1_3            0.840433                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_1_3
+         ramulator.opened_cycles_0_0_1_3             2387978                                      # Total cycles during which the level _0_0_1_3 had an opened row.
+      ramulator.num_blocked_acts_0_0_1_3                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_1_3                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_1_3               38682                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38682.0                                      # 
+              ramulator.num_rows_0_0_1_3                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_1_3                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_1_3                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_1_3                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_1_3                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_1_3              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_1_3              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_1_3              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_1_3              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_1_3              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_1_3              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_1_3              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_1_3              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+           ramulator.active_cycles_0_0_2             4608697                                      # Total active cycles for level _0_0_2
+             ramulator.busy_cycles_0_0_2             4608697                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_2
+        ramulator.serving_requests_0_0_2            22367379                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2
+ramulator.average_serving_requests_0_0_2            4.666820                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2
+           ramulator.opened_cycles_0_0_2                   0                                      # Total cycles during which the level _0_0_2 had an opened row.
+         ramulator.active_cycles_0_0_2_0             3786907                                      # Total active cycles for level _0_0_2_0
+           ramulator.busy_cycles_0_0_2_0             3786907                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_2_0
+      ramulator.serving_requests_0_0_2_0             3856603                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_0
+ramulator.average_serving_requests_0_0_2_0            0.804657                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_0
+         ramulator.opened_cycles_0_0_2_0             2381319                                      # Total cycles during which the level _0_0_2_0 had an opened row.
+      ramulator.num_blocked_acts_0_0_2_0                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_2_0                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_2_0               38692                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38692.0                                      # 
+              ramulator.num_rows_0_0_2_0                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_2_0                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_2_0                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_2_0                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_2_0                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_2_0              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_2_0              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_2_0              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_2_0              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_2_0              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_2_0              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_2_0              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_2_0              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_2_1             3806925                                      # Total active cycles for level _0_0_2_1
+           ramulator.busy_cycles_0_0_2_1             3806925                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_2_1
+      ramulator.serving_requests_0_0_2_1             3887500                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_1
+ramulator.average_serving_requests_0_0_2_1            0.811104                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_1
+         ramulator.opened_cycles_0_0_2_1             2388744                                      # Total cycles during which the level _0_0_2_1 had an opened row.
+      ramulator.num_blocked_acts_0_0_2_1                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_2_1                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_2_1               38699                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38699.0                                      # 
+              ramulator.num_rows_0_0_2_1                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_2_1                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_2_1                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_2_1                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_2_1                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_2_1              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_2_1              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_2_1              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_2_1              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_2_1              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_2_1              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_2_1              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_2_1              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_2_2             4043447                                      # Total active cycles for level _0_0_2_2
+           ramulator.busy_cycles_0_0_2_2             4043447                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_2_2
+      ramulator.serving_requests_0_0_2_2             7378005                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_2
+ramulator.average_serving_requests_0_0_2_2            1.539377                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_2
+         ramulator.opened_cycles_0_0_2_2             2387060                                      # Total cycles during which the level _0_0_2_2 had an opened row.
+      ramulator.num_blocked_acts_0_0_2_2                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_2_2                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_2_2               38598                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38598.0                                      # 
+              ramulator.num_rows_0_0_2_2                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_2_2                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_2_2                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_2_2                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_2_2                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_2_2              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_2_2              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_2_2              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_2_2              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_2_2              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_2_2              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_2_2              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_2_2              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_2_3             3952624                                      # Total active cycles for level _0_0_2_3
+           ramulator.busy_cycles_0_0_2_3             3952624                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_2_3
+      ramulator.serving_requests_0_0_2_3             7245407                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_3
+ramulator.average_serving_requests_0_0_2_3            1.511711                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_2_3
+         ramulator.opened_cycles_0_0_2_3             2388252                                      # Total cycles during which the level _0_0_2_3 had an opened row.
+      ramulator.num_blocked_acts_0_0_2_3                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_2_3                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_2_3               38670                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38670.0                                      # 
+              ramulator.num_rows_0_0_2_3                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_2_3                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_2_3                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_2_3                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_2_3                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_2_3              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_2_3              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_2_3              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_2_3              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_2_3              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_2_3              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_2_3              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_2_3              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+           ramulator.active_cycles_0_0_3             4644725                                      # Total active cycles for level _0_0_3
+             ramulator.busy_cycles_0_0_3             4644725                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_3
+        ramulator.serving_requests_0_0_3            19056341                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3
+ramulator.average_serving_requests_0_0_3            3.975992                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3
+           ramulator.opened_cycles_0_0_3                   0                                      # Total cycles during which the level _0_0_3 had an opened row.
+         ramulator.active_cycles_0_0_3_0             3767938                                      # Total active cycles for level _0_0_3_0
+           ramulator.busy_cycles_0_0_3_0             3767938                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_3_0
+      ramulator.serving_requests_0_0_3_0             3824706                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_0
+ramulator.average_serving_requests_0_0_3_0            0.798002                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_0
+         ramulator.opened_cycles_0_0_3_0             2386072                                      # Total cycles during which the level _0_0_3_0 had an opened row.
+      ramulator.num_blocked_acts_0_0_3_0                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_3_0                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_3_0               38687                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38687.0                                      # 
+              ramulator.num_rows_0_0_3_0                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_3_0                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_3_0                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_3_0                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_3_0                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_3_0              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_3_0              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_3_0              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_3_0              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_3_0              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_3_0              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_3_0              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_3_0              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_3_1             4003339                                      # Total active cycles for level _0_0_3_1
+           ramulator.busy_cycles_0_0_3_1             4003339                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_3_1
+      ramulator.serving_requests_0_0_3_1             7327844                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_1
+ramulator.average_serving_requests_0_0_3_1            1.528911                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_1
+         ramulator.opened_cycles_0_0_3_1             2386839                                      # Total cycles during which the level _0_0_3_1 had an opened row.
+      ramulator.num_blocked_acts_0_0_3_1                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_3_1                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_3_1               38653                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38653.0                                      # 
+              ramulator.num_rows_0_0_3_1                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_3_1                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_3_1                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_3_1                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_3_1                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_3_1              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_3_1              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_3_1              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_3_1              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_3_1              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_3_1              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_3_1              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_3_1              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_3_2             3888756                                      # Total active cycles for level _0_0_3_2
+           ramulator.busy_cycles_0_0_3_2             3888756                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_3_2
+      ramulator.serving_requests_0_0_3_2             3990680                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_2
+ramulator.average_serving_requests_0_0_3_2            0.832632                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_2
+         ramulator.opened_cycles_0_0_3_2             2384323                                      # Total cycles during which the level _0_0_3_2 had an opened row.
+      ramulator.num_blocked_acts_0_0_3_2                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_3_2                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_3_2               38588                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38588.0                                      # 
+              ramulator.num_rows_0_0_3_2                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_3_2                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_3_2                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_3_2                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_3_2                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_3_2              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_3_2              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_3_2              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_3_2              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_3_2              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_3_2              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_3_2              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_3_2              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+         ramulator.active_cycles_0_0_3_3             3827686                                      # Total active cycles for level _0_0_3_3
+           ramulator.busy_cycles_0_0_3_3             3827686                                      # (All-bank refresh only. busy cycles only include refresh time in rank level) The sum of cycles that the DRAM part is active or under refresh for level _0_0_3_3
+      ramulator.serving_requests_0_0_3_3             3913295                                      # The sum of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_3
+ramulator.average_serving_requests_0_0_3_3            0.816486                                      # The average of read and write requests that are served in this DRAM element per memory cycle for level _0_0_3_3
+         ramulator.opened_cycles_0_0_3_3             2387106                                      # Total cycles during which the level _0_0_3_3 had an opened row.
+      ramulator.num_blocked_acts_0_0_3_3                   0                                      # Number of blocked ACTs by blockhammer
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+                                                         0.0                                      # 
+  ramulator.num_issued_prev_refs_0_0_3_3                   0                                      # Number of issued preventive refreshes by a rowhammer protection mechanism
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.num_issued_acts_0_0_3_3               38627                                      # Total number of issued activations
+                                     [0]                 0.0                                      # 
+                                     [1]             38627.0                                      # 
+              ramulator.num_rows_0_0_3_3                   0                                      # Memory footprint of the program in terms of number of DRAM rows, touched at least once.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truepositives_0_0_3_3                   0                                      # Number of times that a RowHammer core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsepositives_0_0_3_3                   0                                      # Number of times that a benign core was throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_falsenegatives_0_0_3_3                   0                                      # Number of times that a RowHammer core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.coreblock_truenegatives_0_0_3_3                   0                                      # Number of times that a benign core was not throttled.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core0_0_0_3_3              0.0000                                      # Probability of core 0 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core1_0_0_3_3              0.0000                                      # Probability of core 1 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core2_0_0_3_3              0.0000                                      # Probability of core 2 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core3_0_0_3_3              0.0000                                      # Probability of core 3 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core4_0_0_3_3              0.0000                                      # Probability of core 4 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core5_0_0_3_3              0.0000                                      # Probability of core 5 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core6_0_0_3_3              0.0000                                      # Probability of core 6 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.hammer_prob_core7_0_0_3_3              0.0000                                      # Probability of core 7 being a RowHammer attack.
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+      ramulator.read_transaction_bytes_0            40028864                                      # The total byte of read transaction per channel
+     ramulator.write_transaction_bytes_0              752704                                      # The total byte of write transaction per channel
+       ramulator.row_hits_channel_0_core               18755                                      # Number of row hits per channel per core
+     ramulator.row_misses_channel_0_core                5367                                      # Number of row misses per channel per core
+  ramulator.row_conflicts_channel_0_core              613090                                      # Number of row conflicts per channel per core
+  ramulator.read_row_hits_channel_0_core               18669                                      # Number of row hits for read requests per channel per core
+                                     [0]                 0.0                                      # 
+                                     [1]             18669.0                                      # 
+ramulator.read_row_misses_channel_0_core                4628                                      # Number of row misses for read requests per channel per core
+                                     [0]              2167.0                                      # 
+                                     [1]              2461.0                                      # 
+ramulator.read_row_conflicts_channel_0_core              602154                                      # Number of row conflicts for read requests per channel per core
+                                     [0]            497833.0                                      # 
+                                     [1]            104321.0                                      # 
+ ramulator.write_row_hits_channel_0_core                  86                                      # Number of row hits for write requests per channel per core
+                                     [0]                86.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.write_row_misses_channel_0_core                 739                                      # Number of row misses for write requests per channel per core
+                                     [0]               739.0                                      # 
+                                     [1]                 0.0                                      # 
+ramulator.write_row_conflicts_channel_0_core               10936                                      # Number of row conflicts for write requests per channel per core
+                                     [0]             10936.0                                      # 
+                                     [1]                 0.0                                      # 
+      ramulator.useless_activates_0_core                   5                                      # Number of useless activations. E.g, ACT -> PRE w/o RD or WR
+            ramulator.read_latency_avg_0          176.587466                                      # The average memory latency cycles (in memory time domain) per request for all read requests in this channel
+            ramulator.read_latency_sum_0           110455990                                      # The memory latency cycles (in memory time domain) sum for all read requests in this channel
+    ramulator.read_latency_sum_per_core0           110455990                                      # The memory latency cycles (in memory time domain) sum for all read requests per core
+                                     [0]          99590836.0                                      # 
+                                     [1]          10865154.0                                      # 
+    ramulator.read_latency_avg_per_core0          285.790420                                      # The average memory latency cycles (in memory time domain) per request per each core
+                                     [0]               199.2                                      # 
+                                     [1]                86.6                                      # 
+        ramulator.req_queue_length_avg_0           51.954718                                      # Average of read and write queue length per memory cycle per channel.
+        ramulator.req_queue_length_sum_0           249011273                                      # Sum of read and write queue length per memory cycle per channel.
+        ramulator.req_queue_length_max_0                  84                                      # Average of read and write queue length per memory cycle per channel.
+   ramulator.read_req_queue_length_avg_0           21.015097                                      # Read queue length average per memory cycle per channel.
+   ramulator.read_req_queue_length_sum_0           100722250                                      # Read queue length sum per memory cycle per channel.
+  ramulator.write_req_queue_length_avg_0           30.939621                                      # Write queue length average per memory cycle per channel.
+  ramulator.write_req_queue_length_sum_0           148289023                                      # Write queue length sum per memory cycle per channel.
+                                                    625448.0                                      # 
+                                                         0.0                                      # 
+                                                         0.0                                      # 
+    ramulator.crow_invPRE_channel_0_core                   0                                      # Number of Precharge commands issued to be able to activate an entry in the CROW table.
+    ramulator.crow_invACT_channel_0_core                   0                                      # Number of Activate command issued to fully activate the entry to invalidate from the CROW table.
+ramulator.crow_full_restore_channel_0_core                   0                                      # Number of Activate commands issued to fully restore an entry that is being discarded due to inserting a new entry.
+ramulator.crow_skip_full_restore_channel_0_core                   0                                      # Number of times full restore was not needed (FR bit not set) when discarding an entry due to inserting a new one.
+  ramulator.crow_num_hits_channel_0_core                   0                                      # Number of hits to the CROW table (without additional activations needed for full restoration).
+ramulator.crow_num_all_hits_channel_0_core                   0                                      # Number of hits to the CROW table.
+ramulator.crow_num_misses_channel_0_core                   0                                      # Number of misses to the CROW table.
+ramulator.crow_num_copies_channel_0_core                   0                                      # Number of row copy operation CROW performed.
+ramulator.crow_num_fr_set_channel_0_core                   0                                      # Number of times FR bit is set when precharging.
+ramulator.crow_num_fr_notset_channel_0_core                   0                                      # Number of times FR bit is not set when precharging.
+ramulator.crow_num_fr_ref_channel_0_core                   0                                      # Number of times FR bit is set since the row won't be refreshed soon.
+ramulator.crow_num_fr_restore_channel_0_core                   0                                      # Number of times FR bit is set since the row is not fully restored.
+ramulator.crow_num_hits_with_fr_channel_0_core                   0                                      # Number of CROWTable hits to FR bit set entries.
+ramulator.crow_bypass_copying_channel_0_core                   0                                      # Number of rows not copied to a copy row due to having only rows above the hit threshold already cached.
+ramulator.crow_cycles_trcd_stall_channel_0_core                   0                                      # Number of cycles for which the command bus was idle but there was a request waiting for tRCD.
+ramulator.crow_cycles_tras_stall_channel_0_core                   0                                      # Number of cycles for which the command bus was idle but there was a request waiting for tRAS.
+ramulator.tl_dram_invalidate_due_to_write_channel_0_core                   0                                      # Number of TL-DRAM cached rows invalidated during activation due to pending writes.
+ramulator.tl_dram_precharge_cached_row_due_to_write_channel_0_core                   0                                      # Number of TL-DRAM cached rows precharged to write data.
+ramulator.tl_dram_precharge_failed_due_to_timing_channel_0_core                   0                                      # Number of cycles failed to issue a PRE command to TL-DRAM cache row.
+                  ramulator.act_energy_0   1175228851.875000                                      # act_energy_0
+                  ramulator.pre_energy_0    592205130.000000                                      # pre_energy_0
+                 ramulator.read_energy_0    677378038.000000                                      # read_energy_0
+                ramulator.write_energy_0      5889697.000000                                      # write_energy_0
+            ramulator.act_stdby_energy_0    405239956.000000                                      # act_stdby_energy_0
+            ramulator.pre_stdby_energy_0      1171291.500000                                      # pre_stdby_energy_0
+             ramulator.idle_energy_act_0       469612.000000                                      # idle_energy_act_0
+             ramulator.idle_energy_pre_0            0.000000                                      # idle_energy_pre_0
+             ramulator.f_act_pd_energy_0            0.000000                                      # f_act_pd_energy_0
+             ramulator.f_pre_pd_energy_0            0.000000                                      # f_pre_pd_energy_0
+             ramulator.s_act_pd_energy_0            0.000000                                      # s_act_pd_energy_0
+             ramulator.s_pre_pd_energy_0            0.000000                                      # s_pre_pd_energy_0
+                 ramulator.sref_energy_0            0.000000                                      # sref_energy_0
+             ramulator.sref_ref_energy_0            0.000000                                      # sref_ref_energy_0
+         ramulator.sref_ref_act_energy_0            0.000000                                      # sref_ref_act_energy_0
+         ramulator.sref_ref_pre_energy_0            0.000000                                      # sref_ref_pre_energy_0
+                 ramulator.spup_energy_0            0.000000                                      # spup_energy_0
+             ramulator.spup_ref_energy_0            0.000000                                      # spup_ref_energy_0
+         ramulator.spup_ref_act_energy_0            0.000000                                      # spup_ref_act_energy_0
+         ramulator.spup_ref_pre_energy_0            0.000000                                      # spup_ref_pre_energy_0
+              ramulator.pup_act_energy_0            0.000000                                      # pup_act_energy_0
+              ramulator.pup_pre_energy_0            0.000000                                      # pup_pre_energy_0
+                    ramulator.IO_power_0            3.700000                                      # IO_power_0
+                ramulator.WR_ODT_power_0           17.000000                                      # WR_ODT_power_0
+                ramulator.TermRD_power_0            0.000000                                      # TermRD_power_0
+                ramulator.TermWR_power_0            0.000000                                      # TermWR_power_0
+              ramulator.read_io_energy_0    133788189.000000                                      # read_io_energy_0
+           ramulator.write_term_energy_0      6688366.666667                                      # write_term_energy_0
+           ramulator.read_oterm_energy_0            0.000000                                      # read_oterm_energy_0
+          ramulator.write_oterm_energy_0            0.000000                                      # write_oterm_energy_0
+              ramulator.io_term_energy_0    140476555.666667                                      # io_term_energy_0
+                  ramulator.ref_energy_0     22860894.000000                                      # ref_energy_0
+                ramulator.total_energy_0   3020450414.041667                                      # total_energy_0
+               ramulator.average_power_0          392.239926                                      # average_power_0
+              ramulator.numberofacts_s_0                   1                                      # Number of activate commands_0
+              ramulator.numberofpres_s_0                   1                                      # Number of precharge commands_0
+             ramulator.numberofreads_s_0                   1                                      # Number of reads commands_0
+            ramulator.numberofwrites_s_0                   1                                      # Number of writes commands_0
+              ramulator.numberofrefs_s_0                 987                                      # Number of refresh commands_0
+                 ramulator.precycles_s_0               30622                                      # Number of precharge cycles_0
+                 ramulator.actcycles_s_0             9209999                                      # Number of active cycles_0
+            ramulator.idlecycles_act_s_0               10673                                      # Number of Idle cycles in the active state_0
+            ramulator.idlecycles_pre_s_0                   0                                      # Number of Idle cycles in the precharge state_0
+                ramulator.f_act_pdns_s_0                   0                                      # Number of fast-exit activate power-downs_0
+                ramulator.s_act_pdns_s_0                   0                                      # Number of slow-exit activate power-downs_0
+                ramulator.f_pre_pdns_s_0                   0                                      # Number of fast-exit precharged power-downs_0
+                ramulator.s_pre_pdns_s_0                   0                                      # Number of slow-exit activate power-downs_0
+             ramulator.numberofsrefs_s_0                   0                                      # Number of self-refresh commands_0
+            ramulator.f_act_pdcycles_s_0                   0                                      # Number of clock cycles in fast-exit activate power-down mode_0
+            ramulator.s_act_pdcycles_s_0                   0                                      # Number of clock cycles in slow-exit activate power-down mode_0
+            ramulator.f_pre_pdcycles_s_0                   0                                      # Number of clock cycles in fast-exit precharged power-down mode_0
+            ramulator.s_pre_pdcycles_s_0                   0                                      # Number of clock cycles in slow-exit precharged power-down mode_0
+               ramulator.sref_cycles_s_0                   0                                      # Number of clock cycles in self-refresh mode_0
+            ramulator.pup_act_cycles_s_0                   0                                      # Number of clock cycles in activate power-up mode_0
+            ramulator.pup_pre_cycles_s_0                   0                                      # Number of clock cycles in precharged power-up mode_0
+               ramulator.spup_cycles_s_0                   0                                      # Number of clock cycles in self-refresh power-up mode_0
+       ramulator.sref_ref_act_cycles_s_0                   0                                      # Number of active auto-refresh cycles in self-refresh mode_0
+       ramulator.sref_ref_pre_cycles_s_0                   0                                      # Number of precharged auto-refresh cycles in self-refresh mode_0
+       ramulator.spup_ref_act_cycles_s_0                   0                                      # Number of active auto-refresh cycles during self-refresh exit_0
+       ramulator.spup_ref_pre_cycles_s_0                   0                                      # Number of precharged auto-refresh cycles during self-refresh exit_0
+              ramulator.record_read_hits             18669.0                                      # record read hit count for this core when it reaches request limit or to the end
+                                     [0]                 0.0                                      # 
+                                     [1]             18669.0                                      # 
+            ramulator.record_read_misses              4628.0                                      # record_read_miss count for this core when it reaches request limit or to the end
+                                     [0]              2167.0                                      # 
+                                     [1]              2461.0                                      # 
+         ramulator.record_read_conflicts            602137.0                                      # record read conflict count for this core when it reaches request limit or to the end
+                                     [0]            497816.0                                      # 
+                                     [1]            104321.0                                      # 
+             ramulator.record_write_hits                 0.0                                      # record write hit count for this core when it reaches request limit or to the end
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+           ramulator.record_write_misses                 0.0                                      # record write miss count for this core when it reaches request limit or to the end
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+        ramulator.record_write_conflicts                 0.0                                      # record write conflict for this core when it reaches request limit or to the end
+                                     [0]                 0.0                                      # 
+                                     [1]                 0.0                                      # 
+     ramulator.record_read_latency_avg_0          285.777161                                      # The memory latency cycles (in memory time domain) average per core in this channel
+                                     [0]               199.2                                      # 
+                                     [1]                86.6                                      # 
+                 ramulator.dram_capacity          4294967296                                      # Number of bytes in simulated DRAM
+                   ramulator.dram_cycles             4792852                                      # Number of DRAM cycles simulated
+             ramulator.incoming_requests              637261                                      # Number of incoming requests to DRAM
+                 ramulator.read_requests              625503                                      # Number of incoming read requests to DRAM per core
+                                     [0]            500000.0                                      # 
+                                     [1]            125503.0                                      # 
+                ramulator.write_requests               11758                                      # Number of incoming write requests to DRAM per core
+                                     [0]             11758.0                                      # 
+                                     [1]                 0.0                                      # 
+       ramulator.ramulator_active_cycles             4788787                                      # The total number of cycles that the DRAM part is active (serving R/W)
+ ramulator.incoming_requests_per_channel            637261.0                                      # Number of incoming requests to each DRAM channel
+                                     [0]            637261.0                                      # 
+ramulator.incoming_read_reqs_per_channel            625503.0                                      # Number of incoming read requests to each DRAM channel
+                                     [0]            625503.0                                      # 
+     ramulator.physical_page_replacement                   0                                      # The number of times that physical page replacement happens.
+             ramulator.maximum_bandwidth         19200000000                                      # The theoretical maximum bandwidth (Bps)
+          ramulator.in_queue_req_num_sum           249011273                                      # Sum of read/write queue length
+     ramulator.in_queue_read_req_num_sum           100722250                                      # Sum of read queue length
+    ramulator.in_queue_write_req_num_sum           148289023                                      # Sum of write queue length
+          ramulator.in_queue_req_num_avg           51.954718                                      # Average of read/write queue length per memory cycle
+     ramulator.in_queue_read_req_num_avg           21.015097                                      # Average of read queue length per memory cycle
+    ramulator.in_queue_write_req_num_avg           30.939621                                      # Average of write queue length per memory cycle
+          ramulator.record_read_requests            625501.0                                      # record read requests for this core when it reaches request limit or to the end
+                                     [0]            499998.0                                      # 
+                                     [1]            125503.0                                      # 
+         ramulator.record_write_requests                 4.0                                      # record write requests for this core when it reaches request limit or to the end
+                                     [0]                 4.0                                      # 
+                                     [1]                 0.0                                      # 
+            ramulator.L3_cache_read_miss             9132728                                      # cache read miss count
+                                                    500000.0                                      # 
+           ramulator.L3_cache_write_miss                   6                                      # cache write miss count
+        ramulator.L3_cache_prefetch_miss                   0                                      # cache prefetch miss count
+         ramulator.L3_cache_prefetch_hit                   0                                      # prefetch requests that were already in the cache
+           ramulator.L3_cache_total_miss             9632734                                      # cache total miss count
+             ramulator.L3_cache_eviction              576142                                      # number of evict from this level to lower level
+          ramulator.L3_cache_read_access             9192504                                      # cache read access count
+        ramulator.L3_cache_hammer_access              500000                                      # cache hammer access count
+         ramulator.L3_cache_write_access               54982                                      # cache write access count
+      ramulator.L3_cache_prefetch_access                   0                                      # cache prefetch access count
+         ramulator.L3_cache_total_access             9747486                                      # cache total access count
+             ramulator.L3_cache_mshr_hit                   0                                      # cache mshr hit count
+     ramulator.L3_cache_mshr_unavailable             9007231                                      # cache mshr not available count
+      ramulator.L3_cache_set_unavailable                   0                                      # cache set not available
+                    ramulator.cpu_cycles            12780938                                      # cpu cycle number
+            ramulator.record_cycs_core_0             9007311                                      # Record cycle number for calculating weighted speedup. (Only valid when expected limit instruction number is non zero in config file.)
+           ramulator.record_insts_core_0             2000000                                      # Retired instruction number when record cycle number. (Only valid when expected limit instruction number is non zero in config file.)
+   ramulator.memory_access_cycles_core_0             4740215                                      # memory access cycles in memory time domain
+       ramulator.cpu_instructions_core_0             2000000                                      # cpu instruction number
+            ramulator.record_cycs_core_1            12780938                                      # Record cycle number for calculating weighted speedup. (Only valid when expected limit instruction number is non zero in config file.)
+           ramulator.record_insts_core_1             2000000                                      # Retired instruction number when record cycle number. (Only valid when expected limit instruction number is non zero in config file.)
+   ramulator.memory_access_cycles_core_1             4740215                                      # memory access cycles in memory time domain
+       ramulator.cpu_instructions_core_1             2000001                                      # cpu instruction number
