@@ -81,9 +81,9 @@ This repository contains the BlockHammer simulation using Ramulator. Follow the 
 ## Performance Metrics
 -  Total Row Activations (num_issued_acts): Measures the frequency of row activations.
 Blocked Activation Attempts (num_blocked_acts): Indicates the effectiveness of BlockHammer in intercepting high-frequency activations.
-Average Read Latency (read_latency_avg): Evaluates system responsiveness.
-Total Read Latency (read_latency_sum): Summarizes overall memory latency during the simulation.
-Average Request Queue Length (req_queue_length_avg): Quantifies memory controller load.
+-  Average Read Latency (read_latency_avg): Evaluates system responsiveness.
+-  Total Read Latency (read_latency_sum): Summarizes overall memory latency during the simulation.
+-  Average Request Queue Length (req_queue_length_avg): Quantifies memory controller load.
 Total Read Queue Length (read_req_queue_length_sum): Reflects read operation load over time.
 Energy Metrics
 Row Activation Energy (act_energy)
@@ -96,7 +96,7 @@ Idle Activation Energy (idle_energy_act)
 These metrics enable a detailed evaluation of BlockHammer’s impact on memory access efficiency, system responsiveness, and energy consumption during various memory operations.
 
 ## Extract Performance Metrics
-Use the Evaluate.py script to extract metrics from the ramulator.stats file.
+Use the `Evaluate.py` script to extract metrics from the ramulator.stats file.
 
 
 ## Troubleshooting
