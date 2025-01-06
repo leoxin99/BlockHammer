@@ -93,7 +93,7 @@ Blocked Activation Attempts (num_blocked_acts): Indicates the effectiveness of B
 -  Active Standby Energy (act_stdby_energy)
 -  Precharge Standby Energy (pre_stdby_energy)
 -  Idle Activation Energy (idle_energy_act)
--  These metrics enable a detailed evaluation of BlockHammer’s impact on memory access efficiency, system responsiveness, and energy consumption during various memory operations.
+  These metrics enable a detailed evaluation of BlockHammer’s impact on memory access efficiency, system responsiveness, and energy consumption during various memory operations.
 
 
 
