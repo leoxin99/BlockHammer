@@ -106,7 +106,7 @@ def safeget(l, i, defval=False):
         return defval
 
 def StatParserTest():
-    stat_parser = StatParser("./DDR3.stats", verbose=True)
+    stat_parser = StatParser("./datadir/429.mcf_underattack/mech/ramulator.stats", verbose=True)
     # stat_parser.dump_stats()
     quit()
 
